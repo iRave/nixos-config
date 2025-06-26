@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  networking.hostName = "laptop";
+  networking.hostName = "NixOS";
   networking.networkmanager.enable = true;
 
   time.timeZone = "Europe/Berlin";

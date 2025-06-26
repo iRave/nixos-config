@@ -9,10 +9,10 @@
 
   outputs = { self, nixpkgs, home-manager, ... }:
     let system = "x86_64-linux"; in {
-      nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.microserver = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          ./hosts/laptop.nix
+          ./hosts/microserver.nix
           ./modules/hardware.nix
           ./modules/networking.nix
           ./modules/users.nix
