@@ -12,10 +12,10 @@
       nixosConfigurations.microserver = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          ./hosts/microserver.nix
           ./modules/hardware.nix
           ./modules/networking.nix
           ./modules/users.nix
+          ./hosts/microserver.nix
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
