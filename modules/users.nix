@@ -3,7 +3,7 @@
 {
   users.users.irave = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ];
+    extraGroups = [ "wheel" "networkmanager" "docker" ];
     shell = pkgs.zsh;
   };
   programs.zsh.enable = true;

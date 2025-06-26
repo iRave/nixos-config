@@ -16,6 +16,7 @@
     git
     qemu
     virt-manager
+    inputs.compose2nix.packages.x86_64-linux.default
   ];
 
   system.stateVersion = "25.05";
