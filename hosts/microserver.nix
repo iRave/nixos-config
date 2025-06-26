@@ -1,9 +1,9 @@
-{ config, pkgs, ... }:
+{ lib, config, pkgs, ... }:
 
 {
   imports = [];
   
-  networking.hostName = "nixos-microserver";
+  networking.hostName = lib.mkForce "nixos-microserver";
   
   nixpkgs.config.allowUnfree = true;
 
