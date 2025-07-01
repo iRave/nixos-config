@@ -14,7 +14,7 @@
     image = "louislam/dockge:latest";
     volumes = [
       "/var/lib/dockge/config:/app/data:rw"
-      "/var/lib/dockge/stacks:/app/stacks:rw"
+      "/opt/stacks:/opt/stacks:rw"
       "/var/run/docker.sock:/var/run/docker.sock:rw"
     ];
     ports = [

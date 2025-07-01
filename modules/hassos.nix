@@ -3,6 +3,7 @@
 let
   haImage = pkgs.fetchurl {
     url = "https://github.com/home-assistant/operating-system/releases/download/15.2/haos_ova-15.2.qcow2.xz";
+    hash = "sha256-bRgQe/X0GrSRjLJ/u+ztaIwXDoSGkDThPKOObZ1Uckk=";
   };
 in {
   systemd.services.hassos-vm = {
