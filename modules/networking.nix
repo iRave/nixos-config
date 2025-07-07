@@ -14,7 +14,7 @@
       PermitRootLogin = "no";  # or "prohibit-password" for keys only
       passwordAuthentication = true;  # or false if using SSH keys
     }
-  }
+  };
 
   networking.firewall.allowedTCPPorts = [ 22 ];
 }
