@@ -8,7 +8,7 @@
   i18n.defaultLocale = "en_US.UTF-8";
   console.keyMap = "de";
 
-  service.openssh = {
+  services.openssh = {
     enable = true;
     settings = {
       PermitRootLogin = "no";  # or "prohibit-password" for keys only
