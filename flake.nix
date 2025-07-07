@@ -19,8 +19,9 @@
           ./modules/hardware.nix
           ./modules/networking.nix
           ./modules/users.nix
-          ./modules/docker.nix
-          ./modules/hassos.nix
+          ./modules/dockge.nix
+          ./modules/tmux.nix
+          #./modules/hassos.nix
           ./hosts/microserver.nix
           home-manager.nixosModules.home-manager
           {
