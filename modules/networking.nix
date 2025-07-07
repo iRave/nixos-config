@@ -12,7 +12,7 @@
     enable = true;
     settings = {
       PermitRootLogin = "no";  # or "prohibit-password" for keys only
-      passwordAuthentication = true;  # or false if using SSH keys
+      PasswordAuthentication = true;  # or false if using SSH keys
     };
   };
 
